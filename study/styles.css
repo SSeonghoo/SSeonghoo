@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  background-color: teal;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
+  div {
+    background-color: wheat;
+  }
+}
